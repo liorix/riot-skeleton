@@ -8,6 +8,4 @@ import HeroUnit from './components/hero-unit';
 
 
 riot.mount('app')
-riot.mount('header')
-riot.mount('hero-unit')
 
