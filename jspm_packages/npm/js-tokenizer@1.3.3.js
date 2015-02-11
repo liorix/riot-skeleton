@@ -1,0 +1,1 @@
+module.exports = require("npm:js-tokenizer@1.3.3/index");

@@ -1,0 +1,1 @@
+module.exports = require("npm:acorn-6to5@0.11.1-28/acorn_csp");

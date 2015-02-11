@@ -1,0 +1,98 @@
+{
+  "name": "riot",
+  "version": "2.0.7",
+  "description": "A React- like, 2.5K user interface library",
+  "homepage": "https://muut.com/riotjs/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/muut/riotjs"
+  },
+  "author": {
+    "name": "Muut, Inc. and other contributors"
+  },
+  "license": "MIT",
+  "keywords": [
+    "custom tags",
+    "custom elements",
+    "web components",
+    "virtual dom",
+    "shadow dom",
+    "polymer",
+    "react",
+    "jsx",
+    "minimal",
+    "minimalist",
+    "client-side",
+    "framework",
+    "declarative",
+    "templating",
+    "template",
+    "data binding",
+    "mvc",
+    "router",
+    "model",
+    "view",
+    "controller",
+    "riotjs",
+    "riot.js"
+  ],
+  "devDependencies": {
+    "jshint": "latest",
+    "uglify-js": "latest"
+  },
+  "preferGlobal": true,
+  "files": [
+    "lib",
+    "riot.js",
+    "riot.min.js",
+    "compiler.js",
+    "compiler.min.js",
+    "riot+compiler.js",
+    "riot+compiler.min.js"
+  ],
+  "bin": {
+    "riot": "lib/cli.js"
+  },
+  "main": "riot.js",
+  "browser": "riot.js",
+  "gitHead": "f34d01d54298484e5b530346da52b83b5e8c026f",
+  "bugs": {
+    "url": "https://github.com/muut/riotjs/issues"
+  },
+  "_id": "riot@2.0.7",
+  "scripts": {},
+  "_shasum": "027f3f648d1c36110e03649140d34928e4e1d4af",
+  "_from": ".",
+  "_npmVersion": "1.4.28",
+  "_npmUser": {
+    "name": "aurri",
+    "email": "au@rim.as"
+  },
+  "maintainers": [
+    {
+      "name": "tipiirai",
+      "email": "tero@muut.com"
+    },
+    {
+      "name": "aurri",
+      "email": "au@rim.as"
+    }
+  ],
+  "dist": {
+    "shasum": "027f3f648d1c36110e03649140d34928e4e1d4af",
+    "tarball": "http://registry.npmjs.org/riot/-/riot-2.0.7.tgz"
+  },
+  "jspm": {},
+  "registry": "npm",
+  "format": "cjs",
+  "ignore": [
+    "node_modules"
+  ],
+  "dependencies": {
+    "chokidar": "chokidar@~1.0.0-rc2",
+    "minimist": "minimist@~1.1.0",
+    "shelljs": "shelljs@~0.3.0",
+    "path": "github:jspm/nodelibs-path@^0.1.0",
+    "process": "github:jspm/nodelibs-process@^0.1.0"
+  }
+}

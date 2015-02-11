@@ -1,0 +1,1 @@
+module.exports = require("npm:regenerator-6to5@0.8.9-8/main");

@@ -1,0 +1,1 @@
+module.exports = require("npm:chalk@0.5.1/index");

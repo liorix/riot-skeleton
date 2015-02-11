@@ -1,0 +1,1 @@
+module.exports = require("npm:shelljs@0.3.0/shell");

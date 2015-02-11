@@ -1,0 +1,1 @@
+module.exports = require("npm:6to5@3.5.3/lib/6to5/api/node");

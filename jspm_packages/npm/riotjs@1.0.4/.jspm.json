@@ -1,0 +1,69 @@
+{
+  "name": "riotjs",
+  "version": "1.0.4",
+  "description": "The 1kb MV* library for building modular web applications.",
+  "keywords": [
+    "MVP",
+    "MVC",
+    "framework",
+    "library",
+    "micro"
+  ],
+  "main": "riot.js",
+  "devDependencies": {
+    "uglifyjs": "~2.3.6",
+    "jshint": "~2.4.3",
+    "uglify-js": "~2.4.12",
+    "benchmark": "latest",
+    "underscore": "latest",
+    "mustache": "latest",
+    "ejs": "latest"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/muut/riotjs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/muut/riotjs/issues"
+  },
+  "homepage": "https://muut.com/riotjs",
+  "author": {
+    "name": "Tero Piirainen",
+    "email": "tero@muut.com"
+  },
+  "license": "MIT",
+  "gitHead": "30f1dc8c8f216b2784dd332823716a888841325c",
+  "_id": "riotjs@1.0.4",
+  "_shasum": "8043ca62e1f76986c1c81458fdf678d26cf4c9f9",
+  "_from": ".",
+  "_npmVersion": "1.4.27",
+  "_npmUser": {
+    "name": "shime",
+    "email": "shime.ferovac@gmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "tipiirai",
+      "email": "tero@muut.com"
+    },
+    {
+      "name": "shime",
+      "email": "shime.ferovac@gmail.com"
+    }
+  ],
+  "dist": {
+    "shasum": "8043ca62e1f76986c1c81458fdf678d26cf4c9f9",
+    "tarball": "http://registry.npmjs.org/riotjs/-/riotjs-1.0.4.tgz"
+  },
+  "deprecated": "riotjs is renamed to riot",
+  "jspm": {},
+  "registry": "npm",
+  "format": "cjs",
+  "ignore": [
+    "node_modules"
+  ],
+  "dependencies": {}
+}

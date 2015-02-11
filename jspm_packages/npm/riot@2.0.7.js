@@ -1,0 +1,1 @@
+module.exports = require("npm:riot@2.0.7/riot");

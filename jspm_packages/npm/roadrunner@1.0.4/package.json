@@ -1,0 +1,9 @@
+{
+  "name": "roadrunner",
+  "version": "1.0.4",
+  "description": "Cache require resolutions to heavily improve startup speed on subsequent loads",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sebmck/roadrunner.git"
+  }
+}

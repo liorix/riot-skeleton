@@ -1,0 +1,1 @@
+module.exports = require("npm:strip-ansi@0.3.0/index");
