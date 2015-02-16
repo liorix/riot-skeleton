@@ -7,6 +7,7 @@
       "react-bootstrap": "npm:react-bootstrap@^0.13.3",
       "react-router": "jspm:react-router@^0.11.6",
       "riot": "npm:riot@^2.0.7",
+      "riotcontrol": "npm:riotcontrol@^0.0.1",
       "riotjs": "npm:riotjs@^1.0.4"
     }
   },

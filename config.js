@@ -15,6 +15,7 @@ System.config({
     "react-bootstrap": "npm:react-bootstrap@0.13.3",
     "react-router": "npm:react-router@0.11.6",
     "riot": "npm:riot@2.0.7",
+    "riotcontrol": "npm:riotcontrol@0.0.1",
     "riotjs": "npm:riotjs@1.0.4",
     "github:jspm/nodelibs-assert@0.1.0": {
       "assert": "npm:assert@1.3.0"

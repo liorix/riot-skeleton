@@ -1,0 +1,1 @@
+module.exports = require("npm:riotcontrol@0.0.1/riotcontrol");

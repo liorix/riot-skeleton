@@ -1,0 +1,56 @@
+{
+  "name": "riotcontrol",
+  "version": "0.0.1",
+  "description": "Event Controller / Dispatcher For RiotJS, Inspired By Flux",
+  "main": "riotcontrol.js",
+  "files": [
+    "riotcontrol.js",
+    "README.md",
+    "LICENSE.txt"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jimsparkman/RiotControl"
+  },
+  "keywords": [
+    "riotjs",
+    "flux"
+  ],
+  "author": {
+    "name": "Jim Sparkman"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jimsparkman/RiotControl/issues"
+  },
+  "homepage": "https://github.com/jimsparkman/RiotControl",
+  "gitHead": "dd8159415df357777776ff1a0e9fb19acdfaae66",
+  "_id": "riotcontrol@0.0.1",
+  "_shasum": "c5a31da0b776e5a33ec9068d002a2c5f8571ca9f",
+  "_from": ".",
+  "_npmVersion": "1.4.21",
+  "_npmUser": {
+    "name": "jimsparkman",
+    "email": "jim.sparkman@houselogix.com"
+  },
+  "maintainers": [
+    {
+      "name": "jimsparkman",
+      "email": "jim.sparkman@houselogix.com"
+    }
+  ],
+  "dist": {
+    "shasum": "c5a31da0b776e5a33ec9068d002a2c5f8571ca9f",
+    "tarball": "http://registry.npmjs.org/riotcontrol/-/riotcontrol-0.0.1.tgz"
+  },
+  "jspm": {},
+  "registry": "npm",
+  "format": "cjs",
+  "ignore": [
+    "node_modules"
+  ],
+  "dependencies": {}
+}
