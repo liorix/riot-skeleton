@@ -1,5 +1,5 @@
-import riot from 'riot';
-
+    import riot from 'riot';
+import RouterStore from '../stores/RouterStore';
 
 <app>
     <style>
@@ -34,13 +34,13 @@ import riot from 'riot';
                         </div><!-- /.navbar-collapse -->
                     </div><!-- /.container-fluid -->
                 </nav>
-                <div if={ tab_url=='story' }>
+                <div if={ route_url.id=='story' || route_url.id==null}>
                     <story ></story>
                 </div>
-                <div if={ tab_url=='comments' }>
+                <div if={ route_url.id=='comments' }>
                     <comments ></comments>
                 </div>
-                <div if={ tab_url=='music' }>
+                <div if={ route_url.id=='music' }>
                     <music ></music>
                 </div>
             </div>
@@ -48,18 +48,13 @@ import riot from 'riot';
     </div>
 
     <script>
-        var type = 'JavaScript1'
-        this.test = `This is ${type}`
         var that = this
-        this.tab_url = "story"
-        riot.route(function(collection, id, action) {
-            if (id) {
-                that.tab_url = id;
-            }
-            else {
-                that.tab_url = "story"
-            }
+        this.route_url = {}
+
+        RouterStore.on ("route_changed", function (url) {
+            that.route_url = url;
             that.update()
-        })
+        });
+
     </script>
 </app>
